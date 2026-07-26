@@ -181,7 +181,7 @@ Dashboard Highlights
 
 <p>
 
-<img width="1536" height="1024" alt="flow" src="https://github.com/user-attachments/assets/3c5d6f7b-a8ff-4853-8156-9c95c1f778d3" />
+<img width="1535" height="1024" alt="siem" src="https://github.com/user-attachments/assets/0c252b37-4667-4757-ba0d-912c6e9aab2c" />
 
 </p>
 
