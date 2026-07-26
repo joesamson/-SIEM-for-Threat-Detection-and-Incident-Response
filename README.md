@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="flow" src="https://github.com/user-attachments/assets/3c5d6f7b-a8ff-4853-8156-9c95c1f778d3" /># -SIEM-for-Threat-Detection-and-Incident-Response
+# -SIEM-for-Threat-Detection-and-Incident-Response
 # 🛡️ Building a SIEM for Threat Detection & Incident Response
 
 <p align="center">
@@ -182,6 +182,8 @@ Dashboard Highlights
 <p align="center">
 
 <img src="screenshots/incident-investigation-workflow.png" width="100%">
+
+<img width="1536" height="1024" alt="flow" src="https://github.com/user-attachments/assets/3c5d6f7b-a8ff-4853-8156-9c95c1f778d3" />
 
 </p>
 
