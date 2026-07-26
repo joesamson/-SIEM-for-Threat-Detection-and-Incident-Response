@@ -177,11 +177,9 @@ Dashboard Highlights
 
 ---
 
-# 📸 Incident Investigation Workflow
 
-<p align="center">
 
-<img src="screenshots/incident-investigation-workflow.png" width="100%">
+<p>
 
 <img width="1536" height="1024" alt="flow" src="https://github.com/user-attachments/assets/3c5d6f7b-a8ff-4853-8156-9c95c1f778d3" />
 
@@ -200,13 +198,6 @@ The workflow illustrates the complete SOC investigation lifecycle implemented in
 - Incident Response and Reporting
 
 ---
-
-# 📸 
-
-
-![Uploading flow.png…]()
-
-
 
 
 # 🎯 Key Findings
