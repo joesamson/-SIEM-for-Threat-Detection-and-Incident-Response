@@ -1,4 +1,4 @@
-# -SIEM-for-Threat-Detection-and-Incident-Response
+<img width="1536" height="1024" alt="flow" src="https://github.com/user-attachments/assets/3c5d6f7b-a8ff-4853-8156-9c95c1f778d3" /># -SIEM-for-Threat-Detection-and-Incident-Response
 # 🛡️ Building a SIEM for Threat Detection & Incident Response
 
 <p align="center">
@@ -199,37 +199,13 @@ The workflow illustrates the complete SOC investigation lifecycle implemented in
 
 ---
 
-# 📸 Project Screenshots
+# 📸 
 
-## 🖥️ Splunk Dashboard
 
-<img src="screenshots/dashboard.png">
+![Uploading flow.png…]()
 
----
 
-## 🚨 Brute Force Detection
 
-<img src="screenshots/bruteforce.png">
-
----
-
-## 🌐 Port Scan Detection
-
-<img src="screenshots/portscan.png">
-
----
-
-## 🔎 BOTSv2 Investigation
-
-<img src="screenshots/botsv2.png">
-
----
-
-## 📊 Authentication Dashboard
-
-<img src="screenshots/authentication-dashboard.png">
-
----
 
 # 🎯 Key Findings
 
