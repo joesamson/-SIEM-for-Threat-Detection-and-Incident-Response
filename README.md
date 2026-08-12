@@ -1,5 +1,5 @@
 # SIEM-for-Threat-Detection-and-Incident-Response
-# 🛡️ Building a SIEM for Threat Detection & Incident Response
+#  Building a SIEM for Threat Detection & Incident Response
 
 <p align="center">
 
@@ -14,48 +14,48 @@
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project demonstrates the implementation of a **Security Information and Event Management (SIEM)** platform using **Splunk Enterprise** to detect, investigate, and respond to cybersecurity threats.
 
 The project combines:
 
-- 🔍 Enterprise-scale threat investigation using the **Splunk Boss of the SOC (BOTSv2)** dataset
-- ⚔️ Live cyber attack simulations in a controlled virtual lab
-- 🧠 Detection engineering using **Splunk Processing Language (SPL)**
-- 📊 Interactive dashboards for security monitoring and incident investigation
+- Enterprise-scale threat investigation using the **Splunk Boss of the SOC (BOTSv2)** dataset
+-  Live cyber attack simulations in a controlled virtual lab
+-  Detection engineering using **Splunk Processing Language (SPL)**
+-  Interactive dashboards for security monitoring and incident investigation
 
 The objective is to simulate real-world **Security Operations Center (SOC)** workflows by collecting logs, identifying malicious activity, correlating events, and investigating security incidents.
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
-- ✅ Deploy and configure Splunk Enterprise
-- ✅ Centralize Windows Event Logs
-- ✅ Investigate enterprise attacks using BOTSv2
-- ✅ Simulate real-world cyber attacks
-- ✅ Develop SPL detection rules
-- ✅ Build security dashboards
-- ✅ Perform threat hunting and incident response
+- Deploy and configure Splunk Enterprise
+-  Centralize Windows Event Logs
+-  Investigate enterprise attacks using BOTSv2
+-  Simulate real-world cyber attacks
+-  Develop SPL detection rules
+-  Build security dashboards
+-  Perform threat hunting and incident response
 
 ---
 
-# 🏗️ Lab Architecture
+#  Lab Architecture
 
 | Component | Technology |
 |-----------|------------|
-| 🛡️ SIEM Platform | Splunk Enterprise |
-| 📥 Log Forwarder | Splunk Universal Forwarder |
-| 💻 Target Machine | Windows 10 |
-| ⚔️ Attacker Machine | Kali Linux |
-| 🖥️ Virtualization | VMware Workstation Pro |
+|  SIEM Platform | Splunk Enterprise |
+|  Log Forwarder | Splunk Universal Forwarder |
+|  Target Machine | Windows 10 |
+|  Attacker Machine | Kali Linux |
+|  Virtualization | VMware Workstation Pro |
 
 ---
 
-# 📂 Data Sources
+# Data Sources
 
-## 🏢 BOTSv2 Dataset
+##  BOTSv2 Dataset
 
 Enterprise-scale logs used for realistic SOC investigations including:
 
@@ -66,7 +66,7 @@ Enterprise-scale logs used for realistic SOC investigations including:
 - Malware Events
 - Security Alerts
 
-## 🧪 Custom Lab Logs
+##  Custom Lab Logs
 
 Generated from live attack simulations.
 
@@ -78,9 +78,9 @@ Generated from live attack simulations.
 
 ---
 
-# ⚔️ Attack Simulations
+#  Attack Simulations
 
-## 🔎 Network Reconnaissance (Nmap)
+##  Network Reconnaissance (Nmap)
 
 ```bash
 sudo nmap -sS -sV -p- -T4 <Target-IP>
@@ -95,7 +95,7 @@ Detection Focus
 
 ---
 
-## 🌐 SYN Flood (hping3)
+##  SYN Flood (hping3)
 
 ```bash
 hping3 -S --flood -p 80 <Target-IP>
@@ -109,7 +109,7 @@ Detection Focus
 
 ---
 
-## 🔐 Brute Force (Hydra)
+##  Brute Force (Hydra)
 
 ```bash
 hydra -l <username> -P /usr/share/wordlists/rockyou.txt ssh://<Target-IP>
@@ -124,9 +124,9 @@ Detection Focus
 
 ---
 
-# 🔍 Detection Rules (SPL)
+#  Detection Rules (SPL)
 
-## 🚨 Brute Force Detection
+##  Brute Force Detection
 
 ```spl
 index=windows EventCode=4625
@@ -137,7 +137,7 @@ index=windows EventCode=4625
 
 ---
 
-## 🚨 Port Scan Detection
+##  Port Scan Detection
 
 ```spl
 index=network sourcetype=firewall
@@ -147,7 +147,7 @@ index=network sourcetype=firewall
 
 ---
 
-## 🚨 Successful Login After Multiple Failures
+##  Successful Login After Multiple Failures
 
 ```spl
 index=windows EventCode=4625 OR EventCode=4624
@@ -159,13 +159,13 @@ by Account_Name, src_ip
 
 ---
 
-# 📊 Splunk Dashboards
+#  Splunk Dashboards
 
 Custom dashboards were created for security monitoring.
 
-- 📈 BOTSv2 Incident Dashboard
-- 🔐 Authentication Monitoring
-- 🌐 Network Activity Monitoring
+- BOTSv2 Incident Dashboard
+- Authentication Monitoring
+-  Network Activity Monitoring
 
 Dashboard Highlights
 
@@ -177,13 +177,8 @@ Dashboard Highlights
 
 ---
 
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/5e9c2481-e1db-431a-a534-f47ab93d15f7" />
 
-
-<p>
-
-<img width="1535" height="1024" alt="siem" src="https://github.com/user-attachments/assets/0c252b37-4667-4757-ba0d-912c6e9aab2c" />
-
-</p>
 
 The workflow illustrates the complete SOC investigation lifecycle implemented in this project:
 
@@ -200,18 +195,18 @@ The workflow illustrates the complete SOC investigation lifecycle implemented in
 ---
 
 
-# 🎯 Key Findings
+#  Key Findings
 
-- ✅ Detected brute-force attacks
-- ✅ Identified reconnaissance activity
-- ✅ Detected abnormal traffic spikes
-- ✅ Investigated enterprise-scale attacks using BOTSv2
-- ✅ Correlated multiple log sources
-- ✅ Performed threat hunting using SPL
+-  Detected brute-force attacks
+-  Identified reconnaissance activity
+-  Detected abnormal traffic spikes
+-  Investigated enterprise-scale attacks using BOTSv2
+-  Correlated multiple log sources
+-  Performed threat hunting using SPL
 
 ---
 
-# 🧰 Skills Demonstrated
+#  Skills Demonstrated
 
 - Splunk Enterprise
 - SIEM Deployment
@@ -226,7 +221,7 @@ The workflow illustrates the complete SOC investigation lifecycle implemented in
 
 ---
 
-# 🎯 MITRE ATT&CK Mapping
+#  MITRE ATT&CK Mapping
 
 | Technique | ATT&CK ID |
 |-----------|-----------|
@@ -237,7 +232,7 @@ The workflow illustrates the complete SOC investigation lifecycle implemented in
 
 ---
 
-# 🪟 Windows Event IDs Monitored
+#  Windows Event IDs Monitored
 
 | Event ID | Description |
 |----------|-------------|
@@ -249,7 +244,7 @@ The workflow illustrates the complete SOC investigation lifecycle implemented in
 
 ---
 
-# 🚀 Technologies Used
+#  Technologies Used
 
 - Splunk Enterprise
 - Splunk Universal Forwarder
@@ -264,12 +259,12 @@ The workflow illustrates the complete SOC investigation lifecycle implemented in
 
 ---
 
-# 📜 Disclaimer
+#  Disclaimer
 
 > This project was built in a **controlled virtual lab environment** for educational and defensive cybersecurity purposes only. All attack simulations were performed on systems owned or authorized for testing. No unauthorized systems or networks were targeted.
 
 ---
 
-# ⭐ Support the Project
+#  Support the Project
 
 If you found this project helpful, consider giving it a **⭐ Star**. Contributions, suggestions, and feedback are always welcome!
