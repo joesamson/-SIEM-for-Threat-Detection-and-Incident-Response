@@ -1,4 +1,4 @@
-# SIEM-for-Threat-Detection-and-Incident-Response
+# Multi-Vector Threat Detection 
 #  Building a SIEM for Threat Detection & Incident Response
 
 <p align="center">
