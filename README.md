@@ -1,5 +1,6 @@
 # Multi-Vector Threat Detection 
-#  Building a SIEM for Threat Detection & Incident Response
+#  From Raw Logs to Real-Time Detection
+Turning scattered log data into actionable alerts across a simulated enterprise environment
 
 <p align="center">
 
